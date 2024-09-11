@@ -19,11 +19,11 @@ pyfastx
 If you haven't already cloned the repository, you can do so by running:
 
 ```
-git clone https://github.com/your-repository/spyCag.git
+git clone https://github.com/TantipArigul/SpyCag.git
 ```
 Navigate into the project directory:
 ```
-cd spyCag
+cd SpyCag
 ```
 
 ## Usage
