@@ -1,6 +1,6 @@
 # SpyCag
 **SpyCag** is a Python-based tool designed to scan Cytotoxin-associated gene A (CagA) sequences for EPIYA, and CagA multimerization (CM) motifs from amino acid sequences in a FASTA file. It identifies these key motifs in sequences related to _Helicobacter pylori_ and outputs the results in a user-friendly format.
-### Features
+## Features
 |Features|Descriptions|
 |---|---|
 |EPIYA Motif Identification | Detects the EPIYA motif within the CagA sequence|
@@ -8,13 +8,25 @@
 
 Customizable Input and Output: Allows the user to specify input FASTA files and output result files.
 
-### Requirements
+## Requirements
 Python 3.5 or later
 
-### Required Python packages:
+## Required Python packages:
 pyfastx
 
-### Usage
+## Installation
+### Step to Setup: Clone the Repository
+If you haven't already cloned the repository, you can do so by running:
+
+```
+git clone https://github.com/your-repository/spyCag.git
+```
+Navigate into the project directory:
+```
+cd spyCag
+```
+
+## Usage
 ```
 usage: SpyCag.py [-h] -i INPUT -o OUTPUT
 
@@ -35,7 +47,7 @@ python SpyCag.py -i input_sequences.faa -o results.txt
 This will scan the provided input_sequences.faa file for CagA, EPIYA, and CM motifs and save the results in results.txt.
 
 
-### Example Output
+## Example Output
 The script will generate output in the following format:
 ```
 Sequence Name: Seq1
@@ -46,8 +58,8 @@ KNFSDIVTVEPIYA...AVSEAKNNNNNNNNNNFPLKTQPALKTGFEVDAFLS
 ```
 EPIYA and CM motifs are aligned using dashes, and the positions are displayed relative to the CagA sequences.
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Contributing
+## Contributing
 Feel free to fork the repository, submit pull requests, or raise issues. Contributions are always welcome!
